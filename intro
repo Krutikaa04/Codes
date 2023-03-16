@@ -1,0 +1,11 @@
+//hello world program in cpp
+#include <iostream.h>
+void main() {
+    cout << "Hello World";
+}
+
+//hello world in c
+#include <stdio.h>
+void main() {
+    printf("Hello World");
+}
