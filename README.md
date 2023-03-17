@@ -1,2 +1,2 @@
 # Codes
-Codes in various languages for reference.
+Repository made for codes in various languages for reference.
