@@ -1,6 +1,7 @@
 //loops
 types -- 
 for, while, do while
+switch case
 
 //for loop
 for ( int i = 0; i < count; i++)
@@ -33,3 +34,6 @@ print numbers from 1 to 10
     }
     return 0;
 }
+
+
+//switch case
