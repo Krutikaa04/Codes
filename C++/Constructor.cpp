@@ -28,8 +28,8 @@ class Vehicle {
 
 void main() {
 //constructor is called by giving values 
-  Vehicle obj1('D', 'X', 1999);
-  Vehicle obj2('F', 'M', 1969);
+  Vehicle obj1('K', 'W', 2004);
+  Vehicle obj2('I', 'M', 2019);
 
   obj1.function1();
   cout << obj1.brand << " " << obj1.model << " " << obj1.year << "\n";
