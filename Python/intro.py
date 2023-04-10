@@ -19,3 +19,13 @@ print(type(var3))
 
 #printing length of string
 print(len(var2))
+
+name = "Krutika"
+surname = "Wagh"
+print("My name is {} and surname is {}.format(name, surname)")    #first method of printing
+print("My name is {first} and surname is {surname}.format(first = name, last = surname)")         #alternate method
+
+#booleans
+#to check whether the given type is boolean
+print(type(True))     # ==> Output- bool
+print(type(False))
