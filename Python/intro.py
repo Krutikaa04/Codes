@@ -31,8 +31,16 @@ print(type(True))     # ==> Output- bool
 print(type(False))
 
 
+# logical operators  --> and, or, not
+print(True and True)  #true
+print(True and False) #false
+print(not True)       #false
+print(True or False)  #true
+
+
 #taking inputs in python
-#this will take input of to numbers to find sum
+#this will take input of two numbers to find sum
+#arithmetic operators --> +, -, *, %, /
 
 num1 = input("Enter first number:")
 num1 = int(num1)
