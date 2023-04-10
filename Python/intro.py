@@ -29,3 +29,23 @@ print("My name is {first} and surname is {surname}.format(first = name, last = s
 #to check whether the given type is boolean
 print(type(True))     # ==> Output- bool
 print(type(False))
+
+
+#taking inputs in python
+#this will take input of to numbers to find sum
+
+num1 = input("Enter first number:")
+num1 = int(num1)
+num2 = input("Enter second number:")
+num2 = int(num2)
+sum = num1 + num2
+print("Sum is: ",sum)
+
+
+#example --> print area of rectangle
+num1 = input("Enter length of rectangle:")
+num1 = float(num1)
+num2 = input("Enter breadth of rectangle:")
+num2 = float(num2)
+area = num1 * num2
+print("Area of rectangle is :", area)
