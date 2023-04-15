@@ -1,3 +1,13 @@
+//try....catch
+//throw
+//finally
+
+//types of exceptions:-
+//1)Arithmetic Exception
+//2)ArrayOutOfBound Exception
+//3)FileNotFound Exception
+
+
 import java.io.*;
 import java.lang.*;
 import java.util.*;
