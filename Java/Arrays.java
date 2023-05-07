@@ -1,3 +1,5 @@
+// An array is a collection of items of same data type stored at contiguous memory locations. 
+
 import java.lang.*;
 import java.io.*;
 import java.util.*;
