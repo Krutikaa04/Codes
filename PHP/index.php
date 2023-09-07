@@ -36,6 +36,22 @@
         }
 
 
+        #switch case
+        $num = 1;
+        switch($num){
+            case 1:
+                //code;
+                break;
+
+            case 2:
+                //code;
+                break;
+
+            default:
+            //code;
+        }
+
+
         # loops in php
         for($num = 1; $num <= 10; $num++){
             echo "$num";
@@ -56,11 +72,9 @@
 
 
         # foreach loop
-
-
-
-    
-
+        foreach($userData as $value){
+            echo $value;
+        }
 
     ?>
 </body>
