@@ -1,0 +1,2 @@
+Welcome to the FileHandling file of Python. You can write anything here.
+This is the appended section done through append function.
