@@ -76,6 +76,48 @@
             echo $value;
         }
 
+
+        #arrays in php
+        $arr = array(1, 2, 3, 4, 5);
+        $arr2 = [1, 2, 3, 4, 5];
+        echo "This is from array 1:", " ";
+        for($i = 0; $i<count($arr); $i++){
+            echo $arr[$i];
+        }
+        echo "<br>";
+        echo "This is from array 2:", " ";
+        for($j = 0; $j<count($arr2); $j ++){
+            echo $arr2[$j];
+        }
+
+
+        $person = array(
+            'name'=> 'John',
+            'age'=> 19,
+            'email'=> 'john123@gmail.com',
+            'company'=> array(
+                "name"=> "XYZ Enterprises",
+                "address"=> "Mumbai"
+            )
+            );
+            echo "<br>";
+            echo $person["name"];
+            echo "<br>";
+
+            foreach($person as $key){                  #key concept
+                if(is_array($key)){
+                    print_r($key);
+                    echo "<br>";
+                    foreach($key as $subkey){           #subkey concept
+                        echo $subkey; 
+                    }
+                }
+                else{
+                    echo $key;
+                }
+            }
+
+            
     ?>
 </body>
 </html>
