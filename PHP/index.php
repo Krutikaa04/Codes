@@ -117,6 +117,38 @@
                 }
             }
 
+        // Question --> in a given array try to find how many times the number has been duplicated in the same array.
+
+        $arr = array(1, 2, 3, 2, 1, 4, 3, 8, 4, 9, 2, 9);
+
+        $dup = array();
+
+        for($i=0; $i < count($arr); $i++){
+            if($count($dup)== 0){
+                $dup[$arr[$i]] = 1;
+            }else{
+                $keys = array_keys($dup);
+                if(in_array($arr[$i], $keys)){
+                    $dup[$arr[$i]] += 1;
+                }else{
+                    $dup[$arr[$i]] = 1;
+                }
+            }
+        }
+        echo "<pre>";
+        print_r($dup);
+
+        //output will be as follows
+
+                // Array
+                // (
+                //     [1] => 2
+                //     [2] => 3
+                //     [3] => 2
+                //     [4] => 2
+                //     [8] => 1
+                //     [9] => 2
+                // )
             
     ?>
 </body>
