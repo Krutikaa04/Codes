@@ -1,0 +1,41 @@
+Node is not a language but a runtime environment for running javasrcipt as a server side language.
+
+REPL IN NODE JS == read evaluate print loop
+You can perform any operation of javascript in it.
+
+In cmd write node and then enter
+Then u can perform anything in node environment.
+
+It is Single threaded still very fast. Internally it is multithreaded.
+It is fast because of the event loop as the event loop checks the req and sends further and after completion sends response to browser.
+When the event loop has to perform operations like maths it doesn't send to internal threads it solves it itself so it works slow.
+So where node js is not useful....in calculations. 
+
+
+Nonblocking == asynchronous......doesn't wait for response for first line and moves to next....
+starts and leaves and after completion call backs the function.
+
+Call back=》When we use a function as parameter it is called call back function. We use it to handle asynchronous data.
+
+
+Call back hell when call backs are there within call backs. Solution to this problem is through Promise.
+
+Promise is a object...it has 3 state but 2 parameters in it. When we send req 
+Promise makes sure that it will send res and then it will send either success or failure. 
+
+1st state- pending  ==req is sent still in process
+2nd state- resolve == data is successful
+3rd state- reject == rejected so given error
+
+Promise settle if given response either resolved or rejected.
+
+Promise chaining is solution to call back hell.
+
+One catch can handle multiple promises.
+
+Async await is better alternative for promise....functionality same syntax more clearer
+
+Promise.all --> it handles multiple promises together 
+
+File Module-->
+Fs module has all the things required for a file like reading writing etc.
