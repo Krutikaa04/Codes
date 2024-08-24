@@ -1,0 +1,29 @@
+Basics of Time Complexity -->
+- Time Complexity is NOT the time taken for the code to run on the machine. It solely depends on the system.
+- The rate at which the time taken increases with respect to the input size is Time Complexity,
+- Reprsented in Big O Notation  --> O(hypothetical time taken)
+
+Rules for TC
+- Always compute time complexity in terms of worst case scenario (best avg and worst)
+- avoid constants 
+- avoid lower values
+
+there are other notations like Theta and omega etc..
+
+Big O --> Worst case complexity, upper bond complexity
+Theta --> Avg complexity
+Omega --> Lower Bond complexity
+
+
+
+Basics of Space Complexity -->
+- Basically the memory space the code takes but then it depends from machine to machine
+- Big o notation used
+- Auxillary Space (Space that u take to solve the problem)
+       +
+  Input Space (Space that u take to store the inputs of the problem)
+       =
+ Space Complexity
+- auxillary space is extra space we use to solve the problem... eg. given var a and b....c=a+b so here c is auxillary space
+- a and b are input space
+- combined is space complexity i.e O(something)
